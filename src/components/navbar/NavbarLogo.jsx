@@ -14,10 +14,10 @@ const NavbarLogo = () => {
         <span className="text-white font-bold text-lg">A</span>
       </div>
       <div className="flex flex-col">
-        <span className="text-lg font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
+        <span className="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
           Atharv Pawar
         </span>
-        <span className="text-xs text-gray-500">Full-Stack Developer</span>
+        <span className="text-xs text-gray-500 dark:text-gray-400">Full-Stack Developer</span>
       </div>
     </div>
   );

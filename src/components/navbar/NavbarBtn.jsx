@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useTheme } from '../../context/ThemeContext';
 
 const NavbarBtn = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { isDarkMode } = useTheme();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -9,12 +11,13 @@ const NavbarBtn = () => {
 
   return (
     <div className="flex items-center space-x-4">
+
       {/* Resume Button */}
       <a
         href="/resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="hidden sm:inline-flex items-center px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors duration-300 shadow-sm"
+        className="hidden sm:inline-flex items-center px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-all duration-300 shadow-sm transform hover:scale-105 active:scale-95"
       >
         <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -25,7 +28,7 @@ const NavbarBtn = () => {
       {/* Mobile Menu Button */}
       <button
         onClick={toggleMenu}
-        className="md:hidden p-2 rounded-lg text-gray-600 hover:text-primary-600 hover:bg-gray-100 transition-colors duration-300"
+        className="md:hidden p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300"
       >
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           {isMenuOpen ? (
@@ -38,7 +41,7 @@ const NavbarBtn = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-white border-b border-gray-100 shadow-lg md:hidden">
+        <div className="absolute top-full left-0 right-0 bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-700 shadow-lg md:hidden animate-fade-in">
           <div className="px-4 py-4 space-y-2">
             {['Home', 'About', 'Skills', 'Projects', 'Experience', 'Contact'].map((item) => (
               <button
@@ -50,7 +53,7 @@ const NavbarBtn = () => {
                   }
                   setIsMenuOpen(false);
                 }}
-                className="block w-full text-left px-4 py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-colors duration-300"
+                className="block w-full text-left px-4 py-2 text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-all duration-300"
               >
                 {item}
               </button>
@@ -59,7 +62,7 @@ const NavbarBtn = () => {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-left px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors duration-300"
+              className="block w-full text-left px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all duration-300"
             >
               Download Resume
             </a>
