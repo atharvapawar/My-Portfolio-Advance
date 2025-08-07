@@ -45,43 +45,43 @@ const Certificates = () => {
   };
 
   const certificates = [
-  {
-    title: "Master in Full Stack Web Development with AWS",
-    issuer: "ITVedant",
-    date: "September 2024",
-    description:
-      "Comprehensive course covering modern web development technologies, including React, Node.js, and MongoDB.",
-    icon: "🌐",
-    file: "/certificates/Master in Full Stack Web Development with AWS.jpg",
-  },
-  {
-    title: "Advanced Web Designing Certificate",
-    issuer: "ITVedant",
-    date: "September 2024",
-    description:
-      "In-depth training in JavaScript concepts such as closures, prototypes, asynchronous programming, and ES6+ features.",
-    icon: "⚡",
-    file: "/certificates/Advanced Web Designing Certificate.jpg",
-  },
-  {
-    title: "AWS Cloud Practitioner Certificate",
-    issuer: "ITVedant",
-    date: "July 2025",
-    description:
-      "Professional certification validating expertise in developing, deploying, and debugging cloud-based applications using AWS.",
-    icon: "☁️",
-    file: "/certificates/AWS Cloud Practitioner Certificate.jpg",
-  },
-  {
-    title: "Angular Certificate",
-    issuer: "ITVedant",
-    date: "September 2024",
-    description:
-      "Comprehensive training in Angular framework for building dynamic, responsive web applications.",
-    icon: "🎨",
-    file: "/certificates/Angular Certificate.jpg",
-  },
-];
+    {
+      title: "Master in Full Stack Web Development with AWS",
+      issuer: "ITVedant",
+      date: "September 2024",
+      description:
+        "Comprehensive course covering modern web development technologies, including React, Node.js, and MongoDB.",
+      icon: "🌐",
+      file: "/certificates/Master in Full Stack Web Development with AWS.jpg",
+    },
+    {
+      title: "Advanced Web Designing Certificate",
+      issuer: "ITVedant",
+      date: "September 2024",
+      description:
+        "In-depth training in JavaScript concepts such as closures, prototypes, asynchronous programming, and ES6+ features.",
+      icon: "⚡",
+      file: "/certificates/Advanced Web Designing Certificate.jpg",
+    },
+    {
+      title: "AWS Cloud Practitioner Certificate",
+      issuer: "ITVedant",
+      date: "July 2025",
+      description:
+        "Professional certification validating expertise in developing, deploying, and debugging cloud-based applications using AWS.",
+      icon: "☁️",
+      file: "/certificates/AWS Cloud Practitioner Certificate.jpg",
+    },
+    {
+      title: "Angular Certificate",
+      issuer: "ITVedant",
+      date: "September 2024",
+      description:
+        "Comprehensive training in Angular framework for building dynamic, responsive web applications.",
+      icon: "🎨",
+      file: "/certificates/Angular Certificate.jpg",
+    },
+  ];
 
   return (
     <motion.section
@@ -163,6 +163,8 @@ const Certificates = () => {
                   <motion.div className="mt-4" variants={itemVariants}>
                     <motion.a
                       href={certificate.file}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium"
                       whileHover={{ x: 5 }}
                       transition={{ type: "spring", stiffness: 400 }}
