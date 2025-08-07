@@ -47,7 +47,7 @@ const NavbarBtn = () => {
 
       {/* Resume Button */}
       <a
-        href="./src/assets/Resume1.pdf"
+        href="/public/Resume1.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="hidden sm:inline-flex items-center px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-all duration-300 shadow-sm transform hover:scale-105 active:scale-95"
@@ -104,7 +104,7 @@ const NavbarBtn = () => {
               </button>
             ))}
             <a
-              href="./src/assets/Resume1.pdf"
+              href="/public/Resume1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-left px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all duration-300"
