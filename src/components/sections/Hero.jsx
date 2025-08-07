@@ -192,7 +192,7 @@ const Hero = () => {
             variants={itemVariants}
           >
             <motion.a
-              href="https://github.com/yourusername"
+              href="https://github.com/atharvapawar"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 dark:text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300"
@@ -218,7 +218,7 @@ const Hero = () => {
               </svg>
             </motion.a>
             <motion.a
-              href="mailto:atharvpawar34s@gmail.com"
+              href="mailto:https://github.com/atharvapawar"
               className="text-gray-400 dark:text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300"
               title="Email"
               whileHover={{ scale: 1.2, y: -5 }}

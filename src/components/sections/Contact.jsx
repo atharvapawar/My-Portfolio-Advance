@@ -393,7 +393,7 @@ const Contact = () => {
                 animate={inView ? "visible" : "hidden"}
               >
                 <motion.a 
-                  href="https://github.com/atharvparkhe" 
+                  href="https://github.com/atharvapawar" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-xl flex items-center justify-center hover:bg-primary-100 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300"

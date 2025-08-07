@@ -60,7 +60,7 @@ const Projects = () => {
       category: 'Full Stack',
       technologies: ['Terraform', 'Ansible', 'AWS', 'GitHub Actions'],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/yourusername/cloud-infrastructure',
+      githubUrl: 'https://github.com/atharvapawar',
       featured: true
     },
     {
@@ -71,7 +71,7 @@ const Projects = () => {
       category: 'Full Stack',
       technologies: ['Node.js', 'Socket.io', 'MongoDB', 'Docker'],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/atharvapawar/My-Portfolio.git',
+      githubUrl: 'https://github.com/atharvapawar',
       featured: true
     },
     {
@@ -82,7 +82,7 @@ const Projects = () => {
       category: 'Full Stack',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/atharvapawar/My-Portfolio.git',
+      githubUrl: 'https://github.com/atharvapawar',
       featured: true
     }
   ];
