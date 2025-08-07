@@ -11,6 +11,7 @@ const About = lazy(() => import('./components/sections/About'));
 const Skills = lazy(() => import('./components/sections/Skills'));
 const Projects = lazy(() => import('./components/sections/Projects'));
 const Experience = lazy(() => import('./components/sections/Experience'));
+const Certificates = lazy(() => import('./components/sections/Certificates'));
 const Contact = lazy(() => import('./components/sections/Contact'));
 const Footer = lazy(() => import('./components/sections/Footer'));
 
@@ -42,34 +43,7 @@ const LoadingSpinner = () => (
   </div>
 );
 
-// Debug component to test theme
-const ThemeDebug = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  
-  useEffect(() => {
-    const checkTheme = () => {
-      const hasDarkClass = document.documentElement.classList.contains('dark');
-      setIsDarkMode(hasDarkClass);
-    };
-    
-    checkTheme();
-    const observer = new MutationObserver(checkTheme);
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
-    
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <div className="fixed top-20 right-4 z-50 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
-      <p className="text-sm text-gray-600 dark:text-gray-300">
-        Theme: <span className="font-bold">{isDarkMode ? 'Dark' : 'Light'}</span>
-      </p>
-      <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-        Classes: {document.documentElement.className}
-      </p>
-    </div>
-  );
-};
+// ThemeDebug component has been removed
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -86,7 +60,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'projects', 'experience', 'contact'];
+      const sections = ['home', 'about', 'skills', 'projects', 'experience', 'certificates', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -167,6 +141,14 @@ function App() {
                 viewport={{ once: true, amount: 0.2 }}
               >
                 <Experience />
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                <Certificates />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0 }}
