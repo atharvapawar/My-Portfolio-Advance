@@ -39,8 +39,8 @@ const Footer = () => {
               <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
               <div className="space-y-2 text-gray-300">
                 <p>📍 Vikhroli, Mumbai, India</p>
-                <p>📧 atharv.pawar@email.com</p>
-                <p>📱 +91 98765 43210</p>
+                <p>📧 atharvpawar34s@gmail.com</p>
+                <p>📱 +91 91194 68987</p>
               </div>
             </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
               <h3 className="text-xl font-semibold mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/atharvapawar"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-primary-400 transition-colors"
@@ -84,7 +84,7 @@ const Footer = () => {
                   </svg>
                 </a>
                 <a
-                  href="mailto:atharv.pawar@email.com"
+                  href="mailto:atharvpawar34s@gmail.com"
                   className="text-gray-300 hover:text-primary-400 transition-colors"
                   title="Email"
                 >

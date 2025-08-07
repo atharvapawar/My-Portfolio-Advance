@@ -218,7 +218,7 @@ const Hero = () => {
               </svg>
             </motion.a>
             <motion.a
-              href="mailto:atharv.pawar@email.com"
+              href="mailto:atharvpawar34s@gmail.com"
               className="text-gray-400 dark:text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300"
               title="Email"
               whileHover={{ scale: 1.2, y: -5 }}

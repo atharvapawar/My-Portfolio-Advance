@@ -281,12 +281,12 @@ const Contact = () => {
                     variants={itemVariants}
                   >Email</motion.h4>
                   <motion.a 
-                    href="mailto:atharv.pawar@email.com" 
+                    href="mailto:atharvpawar34s@gmail.com"
                     className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
                     variants={itemVariants}
                     whileHover={{ scale: 1.05, color: "#4f46e5" }}
                   >
-                    atharv.pawar@email.com
+                    atharvpawar34s@gmail.com
                   </motion.a>
                 </motion.div>
               </motion.div>
@@ -447,7 +447,7 @@ const Contact = () => {
                   </motion.svg>
                 </motion.a>
                 <motion.a 
-                  href="mailto:atharv.pawar@email.com" 
+                  href="mailto:atharvpawar34s@gmail.com" 
                   className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-xl flex items-center justify-center hover:bg-primary-100 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300"
                   variants={itemVariants}
                   whileHover={{ 
