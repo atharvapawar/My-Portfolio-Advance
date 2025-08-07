@@ -1,6 +1,6 @@
 # Atharv Pawar - Portfolio
 
-A modern, responsive portfolio website built with React and Tailwind CSS, featuring dark/light mode toggle and smooth animations.
+A modern, responsive portfolio website built with React and Tailwind CSS.
 
 ## ✨ Features
 
@@ -26,18 +26,14 @@ A modern, responsive portfolio website built with React and Tailwind CSS, featur
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd My-Portfolio
-```
-
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -62,6 +58,7 @@ src/
 ## 🎨 Customization
 
 ### Colors
+
 The color scheme can be customized in `Tailwind.config.js`:
 
 ```javascript
@@ -75,7 +72,9 @@ colors: {
 ```
 
 ### Content
+
 Update the content in each section component:
+
 - `Hero.jsx` - Main introduction and call-to-action
 - `About.jsx` - Personal information and statistics
 - `Skills.jsx` - Technical skills and expertise
@@ -85,19 +84,15 @@ Update the content in each section component:
 
 ## 🔧 Recent Fixes & Improvements
 
-### Dark Mode Issues Fixed
-- ✅ Fixed Tailwind CSS v4 compatibility issues
-- ✅ Improved theme context with proper localStorage handling
-- ✅ Enhanced theme toggle button with better visual feedback
-- ✅ Added proper CSS transitions for smooth theme switching
-
 ### Performance Optimizations
+
 - ✅ Throttled scroll events for better performance
 - ✅ Added loading states and Suspense boundaries
 - ✅ Optimized CSS with proper layer organization
 - ✅ Improved animation performance
 
 ### UI/UX Enhancements
+
 - ✅ Added scroll-to-top button
 - ✅ Enhanced button hover effects and animations
 - ✅ Improved mobile navigation
@@ -105,6 +100,7 @@ Update the content in each section component:
 - ✅ Better visual hierarchy and spacing
 
 ### Code Quality
+
 - ✅ Cleaned up duplicate CSS styles
 - ✅ Improved component organization
 - ✅ Added proper TypeScript-like prop validation
@@ -113,6 +109,7 @@ Update the content in each section component:
 ## 📱 Responsive Design
 
 The portfolio is fully responsive and optimized for:
+
 - Mobile devices (320px+)
 - Tablets (768px+)
 - Desktop (1024px+)
@@ -125,17 +122,9 @@ The portfolio is fully responsive and optimized for:
 - Safari (latest)
 - Edge (latest)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 📞 Contact
 
-- **Email**: atharvpawar34s@gmail.com
+- **Email**: https://www.atharvpawar34s@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/atharvapawar34s
 - **GitHub**: https://github.com/atharvapawar
 

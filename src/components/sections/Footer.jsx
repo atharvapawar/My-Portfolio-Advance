@@ -73,7 +73,7 @@ const Footer = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/atharvapawar34s"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-primary-400 transition-colors"
@@ -98,7 +98,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Atharv Pawar. All rights reserved.</p>
+            <p>&copy; 2025 Atharv Pawar. All rights reserved.</p>
             <p className="mt-2 text-sm">Built with ❤️ using React & Tailwind CSS</p>
           </div>
         </div>

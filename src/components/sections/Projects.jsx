@@ -230,7 +230,7 @@ const Projects = () => {
           variants={itemVariants}
         >
           <motion.a
-            href="https://github.com/yourusername"
+            href="https://github.com/atharvapawar"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-primary-600 text-white text-lg font-medium rounded-lg hover:bg-primary-700 transition-colors duration-300 shadow-lg hover:shadow-xl"

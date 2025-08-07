@@ -205,7 +205,7 @@ const Hero = () => {
               </svg>
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/atharvapawar34s"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 dark:text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300"
