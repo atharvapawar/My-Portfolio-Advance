@@ -52,7 +52,7 @@ const Certificates = () => {
       description:
         "Comprehensive course covering modern web development technologies, including React, Node.js, and MongoDB.",
       icon: "🌐",
-      file: "/certificates/Master in Full Stack Web Development with AWS.jpg",
+      file: "/Certificates/Master in Full Stack Web Development with AWS.jpg",
     },
     {
       title: "Advanced Web Designing Certificate",
@@ -61,7 +61,7 @@ const Certificates = () => {
       description:
         "In-depth training in JavaScript concepts such as closures, prototypes, asynchronous programming, and ES6+ features.",
       icon: "⚡",
-      file: "/certificates/Advanced Web Designing Certificate.jpg",
+      file: "/Certificates/Advanced-Web-Designing-Certificate.jpg",
     },
     {
       title: "AWS Cloud Practitioner Certificate",
@@ -70,7 +70,7 @@ const Certificates = () => {
       description:
         "Professional certification validating expertise in developing, deploying, and debugging cloud-based applications using AWS.",
       icon: "☁️",
-      file: "/certificates/AWS Cloud Practitioner Certificate.jpg",
+      file: "/Certificates/AWS-Cloud-Practitioner-Certificate.jpg",
     },
     {
       title: "Angular Certificate",
@@ -79,7 +79,7 @@ const Certificates = () => {
       description:
         "Comprehensive training in Angular framework for building dynamic, responsive web applications.",
       icon: "🎨",
-      file: "/certificates/Angular Certificate.jpg",
+      file: "/Certificates/Angular-Certificate.jpg",
     },
   ];
 
