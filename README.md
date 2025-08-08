@@ -124,7 +124,7 @@ The portfolio is fully responsive and optimized for:
 
 ## 📞 Contact
 
-- **Email**: https://www.atharvpawar34s@gmail.com
+- **Email**: https://www.atharvapawar34s@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/atharvapawar34s
 - **GitHub**: https://github.com/atharvapawar
 

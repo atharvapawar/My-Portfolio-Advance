@@ -39,7 +39,7 @@ const Footer = () => {
               <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
               <div className="space-y-2 text-gray-300">
                 <p>📍 Vikhroli, Mumbai, India</p>
-                <p>📧 atharvpawar34s@gmail.com</p>
+                <p>📧 atharvapawar34s@gmail.com</p>
                 <p>📱 +91 91194 68987</p>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Footer = () => {
                   </svg>
                 </a>
                 <a
-                  href="mailto:atharvpawar34s@gmail.com"
+                  href="mailto:atharvapawar34s@gmail.com"
                   className="text-gray-300 hover:text-primary-400 transition-colors"
                   title="Email"
                 >
